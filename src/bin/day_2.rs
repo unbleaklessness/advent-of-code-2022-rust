@@ -178,6 +178,6 @@ fn second_half() -> Option<()> {
 }
 
 fn main() {
-    first_half();
-    second_half();
+    first_half().unwrap();
+    second_half().unwrap();
 }
